@@ -1,0 +1,22 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(to bottom right,#de6262, #ffb88c);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: white;
+    text-decoration: dotted;
+}
+
+.droom-logo{
+    width: 55px;
+}
+
+.droom-burgermenu-items{
+    background-color: white;
+    color: #de6262;
+    border: #de6262 1px solid;
+}
