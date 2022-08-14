@@ -9,6 +9,9 @@
     <link rel="shortcut icon" href="img/logo-b.png" type="image/x-icon">
 
     <!-- GOOGLE FONTS AND OTHERS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 
     <!-- BOOTSTRAP 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -18,8 +21,124 @@
 </head>
 <body>
     
+                     <!-- NAV IS HERE! -->
 
-    <!-- NAV IS HERE! -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top droom-navbar mb-5">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="img/logo-w.png" alt="Soft Droom - Healthy Cold Drinks!" class="align-text-top droom-logo"><span class="display-6 align-text-top"> Soft Droom</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item btn btn-light mx-2 my-1">
+          <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown btn btn-light mx-2 my-1">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="droom-nsv-color">Flavors</span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Black</a></li>
+            <li><a class="dropdown-item" href="#">Orange</a></li>
+            <li><a class="dropdown-item" href="#">Lemon</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">View more</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+                    
+<div class="container">
+
+                    <!-- HEADER IS HERE! -->
+    <header class="row align-items-center my-5">
+        <div class="col-12 col-md-9 text-center text-md-start my-5">
+            <span class="align-middle">
+            <h1 class="display-1">Let's taste joy!</h1>
+            <p class="droom-font-text">Soft Droom is a soft drink company which was successful to invent the first healthy soft drink and the first sweet soft drink without sugar. Soft Droom is a very popular company with millions of customers. We, welcome you to the official website of Soft Droom, where you can taste the joy and other flavors.</p>
+            <button class="btn btn-light">
+                Pricing
+            </button>
+            </span>
+        </div>
+        <div class="col-5 mx-auto pt-2 col-md-3 my-5">
+            <img src="img/can.png" class="droom-header-img" alt="Cold Drink can with Soft Droom's logo.">
+        </div>
+    </header>
+
+
+                <!-- FOUNDER'S MESSAGE IS HERE! -->
+    <div class="row align-items-center my-5">
+        <div class="col-5 mx-auto pt-2 col-md-3">
+            <img src="img/founder.jpg" class="droom-header-img rounded-circle" alt="Founder of Soft Droom">
+        </div>
+            <div class="col-12 col-md-9 text-center text-md-start">
+                <span class="align-middle">
+                <h2 class="display-5">CEO's Message</h2>
+                <p class="droom-font-text">Friends, I want you to know the story of Soft Droom. Soft Droom was started by us (me and my friends) when we discovered an amazing tasting cold-drink recipe. The special thing about this cold drink was that this cold drink is the sweetiest and tastiest cold drink ever but without even 1 gram of sugar. This caused Soft Droom to have millions of customers with your help and support. <br> Thank You!</p>
+                </span>
+            </div>
+            </div>
+
+                    <!-- CAROUSEL IS HERE! -->
+    <div id="carouselExampleControls" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/thumb1.png" class="d-block w-100" alt="Soft Droom - Enjoy the taste of joy!">
+          </div>
+          <div class="carousel-item">
+            <img src="img/thumb2.png" class="d-block w-100" alt="Soft Droom - First sweet but sugar-free drink ever!">
+          </div>
+          <div class="carousel-item">
+            <img src="img/thumb3.png" class="d-block w-100" alt="Soft Droom - Unlike other soft drinks, Soft Droom is not a part of Junk Food.">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+                    <!-- CARDS ARE HERE! -->
+<div class="droom-cards-wrapper my-5 d-flex">
+    <div class="card m-1" style="width: 18rem;">
+        <img src="img/card1.jpg" class="card-img-top" alt="Black Soft Droom">
+        <div class="card-body">
+            <p class="card-text card1-text">Black Soft Droom is the most sold cold drink in the history of Soft Droom.</p>
+                <a href="#" class="btn btn-primary">Buy for $25</a>
+        </div>
+    </div>
+    
+    <div class="card m-1" style="width: 18rem;">
+        <img src="img/card2.jpg" class="card-img-top" alt="Orange Soft Droom">
+        <div class="card-body">
+            <p class="card-text card2-text">Orange Soft Droom is a very delicious cold-drink. Although, it is not sugar-free.</p>
+                <a href="#" class="btn btn-primary">Buy for $20</a>
+        </div>
+    </div>
+    
+    <div class="card m-1" style="width: 18rem;">
+        <img src="img/card3.jpg" class="card-img-top" alt="Lemon Soft Drink">
+        <div class="card-body">
+            <p class="card-text card3-text">Lemon is Soft Droom's Choice. It is not sweet, yet it tastes the best. Grab it before its gone!</p>
+                <a href="#" class="btn btn-primary">Buy for $18 (10% Off)</a>
+        </div>
+    </div>
+</div>
+
+   
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>

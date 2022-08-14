@@ -1,22 +1,130 @@
-html{
-    height: 100%;
-}
-
+            /* MEDIA QUERY - EXTRA SMALL (by default) */
 body{
     background-image: linear-gradient(to bottom right,#de6262, #ffb88c);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
     color: white;
-    text-decoration: dotted;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .droom-logo{
-    width: 55px;
+    width: 33px;
+
 }
 
-.droom-burgermenu-items{
+.btn-light{
     background-color: white;
-    color: #de6262;
-    border: #de6262 1px solid;
 }
+
+.navbar-brand{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+.droom-founder-img{
+    width: 100%;
+    height: 100%;
+}
+
+/* This is the color of nav buttons */
+.nav-link, .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    color: #de6262;
+}
+
+.droom-nsv-color, .droom-nsv-color:hover, .droom-nsv-color:active, .btn-light{
+    color: #de6262;
+}
+
+.droom-font-text{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.droom-header-img{
+    width: 100%;
+}
+
+h1, h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+}
+
+.droom-founder h2{
+    color: #de6262;
+}
+
+.droom-founder p{
+    color:#ffb88c;
+}
+
+.droom-founder-img{
+    width: 100%;
+}
+
+.droom-wrapper-text-founder{
+    height: 100%;
+    width: 100%;
+}
+
+.droom-founder-img{
+    background-image: url(img/founder.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.card1-text{
+    color: #610202;
+}
+
+.card2-text{
+    color: #c73f00;
+}
+
+.card3-text{
+    color: #b89c00;
+}
+
+.droom-cards-wrapper{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.droom-navbar{
+    background-color: #de6262;
+}
+
+
+         /* Small devices (landscape phones, 576px and up) */
+
+
+
+@media (min-width: 576px) { 
+    .droom-logo{
+        width: 40px;
+    
+    }
+ }
+
+
+            /* Medium devices (tablets, 768px and up)  */
+
+
+@media (min-width: 768px) { 
+    .droom-logo{
+        width: 44px;
+    
+    }
+ }
+
+
+
+           /* // Large devices (desktops, 992px and up) */
+
+
+
+@media (min-width: 992px) { 
+    .droom-logo{
+        width: 48px;
+    
+    }
+ }
